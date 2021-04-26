@@ -1,0 +1,26 @@
+- profile:
+  initials: R
+  name: Renjiro A. Pramono
+  profession: College Student
+  image: images/profile.jpg
+  location: Semarang, ID
+  relocation: false
+  company: Dian Nuswantoro University
+  for_hire: true
+  focus: Learning Web Development
+  focus_url: https://developer.mozilla.org/id/docs/Web/JavaScript
+  about:
+    I'm Renji, a college student at Dian Nuswantoro University. Majoring Bachelor of Informatics Engineering. I have passion on programming since High School. Mainly i learn about frontend web development. I also have experience as an intern in a software company for about 6 months.
+  skills:
+    - JavaScript
+    - PHP
+    - HTML / CSS
+  tools:
+    - React
+    - Laravel
+    - VSCode
+  budget:
+    currency: Rp
+    min: 5
+    max: 30
+    default: 10
