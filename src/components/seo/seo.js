@@ -3,13 +3,14 @@ import PropTypes from "prop-types"
 import React from "react"
 import { Helmet } from "react-helmet"
 
-const SEO = props => {
+const SeEnOp = props => {
   const { site } = useStaticQuery(
     graphql`
       query {
         site {
           siteMetadata {
             title
+            charset
             description
             author
             locale
@@ -20,6 +21,7 @@ const SEO = props => {
   )
 
   const {
+    charset = site.siteMetadata.charset,
     description = site.siteMetadata.description,
     meta = [],
     title = site.siteMetadata.title,
@@ -31,11 +33,15 @@ const SEO = props => {
         lang: site.siteMetadata.locale,
       }}
       title={title}
-      titleTemplate={`%s | ${site.siteMetadata.title}`}
+      titleTemplate={`%s`}
       meta={[
         {
           name: `description`,
           content: description,
+        },
+        {
+          name: `charset`,
+          content: charset,
         },
         {
           property: `og:title`,
@@ -70,17 +76,19 @@ const SEO = props => {
   )
 }
 
-SEO.defaultProps = {
+SeEnOp.defaultProps = {
+  description: `Portofolio site of Renji`,
   lang: `en`,
-  meta: [],
-  description: ``,
+  meta: `utf-8`,
+  title: `renjiroazhar`,
 }
 
-SEO.propTypes = {
+SeEnOp.propTypes = {
+  charset: PropTypes.string,
   description: PropTypes.string,
   lang: PropTypes.string,
   meta: PropTypes.arrayOf(PropTypes.object),
   title: PropTypes.string,
 }
 
-export default SEO
+export default SeEnOp

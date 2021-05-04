@@ -23,6 +23,7 @@ const ContactForm = ({ formspreeEndpoint, budget }) => {
               aria-label="Name"
               autoComplete="name"
               className="form-input"
+              label="Name"
               name="name"
               placeholder="NAME"
               required
@@ -34,6 +35,7 @@ const ContactForm = ({ formspreeEndpoint, budget }) => {
               aria-label="E-mail"
               autoComplete="email"
               className="form-input"
+              label="E-mail"
               name="email"
               placeholder="EMAIL ADDRESS"
               required
@@ -44,7 +46,9 @@ const ContactForm = ({ formspreeEndpoint, budget }) => {
             <div className="form-control bg-back-light">
               <label className="cursor-pointer select-none">
                 <input
+                  aria-label="Inquiry"
                   className="hidden"
+                  label="Inquiry"
                   name="inquiry"
                   onChange={() => setIsInquiry(!isInquiry)}
                   type="checkbox"
@@ -79,10 +83,12 @@ const ContactForm = ({ formspreeEndpoint, budget }) => {
               </div>
               <div className="w-3/4 lg:w-4/5 p-4 bg-back-light">
                 <input
+                  aria-label="Budget"
                   className="input-range"
                   defaultValue={budget.default}
                   max={budget.max}
                   min={budget.min}
+                  label="Budget"
                   name="budget"
                   onChange={e => setSelectedBudget(e.currentTarget.value)}
                   step="1"
@@ -100,6 +106,7 @@ const ContactForm = ({ formspreeEndpoint, budget }) => {
                 autoComplete="new-password"
                 className="form-input"
                 name="project_type"
+                label="Project Type"
                 placeholder="PROJECT TYPE (E.G. WEBSITE, MOBILE APP)"
                 type="text"
               />
@@ -111,6 +118,7 @@ const ContactForm = ({ formspreeEndpoint, budget }) => {
                 autoComplete="tel"
                 className="form-input"
                 name="phone"
+                label="Phone Number"
                 placeholder="PHONE NUMBER"
                 type="tel"
               />
@@ -123,13 +131,16 @@ const ContactForm = ({ formspreeEndpoint, budget }) => {
             aria-label="Message"
             className="block form-input bg-back-light resize-none border-b-0 pb-4"
             name="message"
+            label="Message"
             placeholder="MESSAGE"
             required
             rows="6"
           ></textarea>
           <div className="bg-back-light">
             <input
+              aria-label="Submit"
               className="font-header inline-block font-semibold px-6 py-2 leading-tight cursor-pointer outline-none bg-front text-back-light uppercase mr-4 my-4 transition-opacity duration-150 hover:opacity-75"
+              label="Submit"
               type="submit"
               value="Send"
             />

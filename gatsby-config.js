@@ -1,7 +1,8 @@
 module.exports = {
   siteMetadata: {
     title: "renjiroazhar",
-    description: "Personal page of Renji",
+    charset: "utf-8",
+    description: "Portofolio site of Renji",
     author: "Renji",
     locale: "en",
     formspreeEndpoint: "https://formspree.io/f/mleadyda",

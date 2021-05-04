@@ -4,7 +4,7 @@ import CustomFonts from "../components/custom-fonts/custom-fonts"
 import Footer from "../components/footer/footer"
 import Header from "../components/header/header"
 import MainContent from "../components/main-content/main-content"
-import searchEngineOptimization from "../components/seo/seo"
+import SeEnOp from "../components/seo/seo"
 import Sidebar from "../components/sidebar/sidebar"
 import StructuredData from "../components/structured-data/structured-data"
 import "../styles/style.css"
@@ -14,7 +14,7 @@ const IndexPage = ({ data }) => {
 
   return (
     <div className="antialiased bg-back leading-normal font-text text-front">
-      <searchEngineOptimization />
+      <SeEnOp />
       <StructuredData profile={profile} social={social.nodes} />
       <CustomFonts />
 
