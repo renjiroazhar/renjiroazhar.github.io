@@ -8,6 +8,9 @@ module.exports = {
     formspreeEndpoint: "https://formspree.io/f/mleadyda",
     favicon: "static/my-logo-4.png",
   },
+  flags: { 
+    PRESERVE_WEBPACK_CACHE: true 
+  },
   plugins: [
     {
       resolve: "@wkocjan/gatsby-theme-intro",
