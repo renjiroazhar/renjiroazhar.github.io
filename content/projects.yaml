@@ -1,39 +1,43 @@
-- name: e-Guest
-  url: https://github.com/renjiroazhar/e-guest
-  description: A digital guestbook application that is integrated with the messaging app to notify the intended person.
+- name: WebGIS Intelligence
+  url: https://intellegence.abbauf.com/
+  description: Software that can be used for statistical data analysis, product marketing, sales planning and business intelligence presented in the form of a map.
   status: live
   tags:
-    - PHP
-    - HTML
-    - Bootstrap
-  icon: github
+    - CodeIgniter 4
+    - OpenStreetMap
+    - Midtrans
+  icon: website
   image: images/project4.jpg
 
-- name: Naget.ID
-  url: https://naget.netlify.app
-  description: Simple application for ordering banana nuggets from Naget.ID.
+- name: Tabpedia - Project Management
+  url: https://pmdev.tabpedia.com/
+  description: Software created to manage task management, work time, and collaboration between teams in any business and create a happier workspace.
   status: live
   tags:
-    - React
-    - JavaScript
-    - MaterialUI
+    - ReactJS
+    - Tailwind CSS
+    - Jest
   icon: website
   image: images/project3.jpg
 
-- name: Duta Engineering Perkasa
-  description: Company profile site of Duta Engineering Perkasa.
+- name: Portofolio Website
+  url: https://renjiroazhar.github.io/
+  description: A simple portfolio website to help brand and promote a wider range of skills that are not limited by connections to seekers who need my services.
   status: live
   tags:
-    - WordPress
-    - PHP
+    - GatsbyJS
+    - Tailwind CSS
+    - GitHub Pages
+  icon: website
   image: images/project2.jpg
 
-- name: Gading Trans
-  url: https://gadingtrans.id
-  description: Transportation rental site for order at Gading Trans.
+- name: E-Guest
+  url: https://github.com/renjiroazhar/e-guest/
+  description: A digital guestbook application that has been integrated with messaging applications and automated bots to notify the intended person directly.
   status: live
   tags:
-    - WordPress
     - PHP
-  icon: website
+    - Javascript
+    - Bootstrap
+  icon: github
   image: images/project1.jpg

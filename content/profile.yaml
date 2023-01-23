@@ -1,26 +1,30 @@
 - profile:
   initials: R
   name: Renjiro A. Pramono
-  profession: College Student
+  profession: Undergraduate Student
   image: images/profile.jpg
   location: Semarang, ID
   relocation: false
   company: Dian Nuswantoro University
   for_hire: true
-  focus: Learning Web Development
-  focus_url: https://developer.mozilla.org/id/docs/Web/JavaScript
+  focus: Full Stack Development
+  focus_url: https://www.w3schools.com/whatis/whatis_fullstack.asp
   about:
-    I'm Renji, a college student at Dian Nuswantoro University. Majoring Bachelor of Informatics Engineering. I have passion on programming since High School. Mainly i learn about frontend web development. I also have experience as an intern in a software company for about 6 months.
+    Renji is a web enthusiast who is highly interested in full-stack development. Currently, Renji is deepening his understanding of back-end
+    development with internships. With 1 year of work experience as a Web Developer and also contribute to multiple-level organizations inside
+    and outside the university. Both technical and managerial roles are shown in his involvement as an intern, volunteer, and in organizations
+    especially when he brainstorms to implement real-world industry best practices and turns client concepts into workable models. Moreover,
+    he has been capable of maintaining and growing his own business while he also works and studies.
   skills:
-    - JavaScript
-    - PHP
-    - HTML / CSS
-  tools:
-    - React
     - Laravel
-    - VSCode
+    - CodeIgniter
+    - ReactJS
+  tools:
+    - Postman
+    - SQL
+    - Git
   budget:
     currency: $
     min: 99
-    max: 299
-    default: 129
+    max: 499
+    default: 319

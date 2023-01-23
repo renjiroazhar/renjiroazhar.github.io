@@ -14,7 +14,7 @@ const Summary = ({ profile }) => (
       {profile.for_hire && (
         <div className="font-header font-semibold text-xs uppercase pt-2">
           <span className="inline-block w-2 h-2 rounded-full mr-1 bg-green-500"></span>
-          Available for intern
+          Available for work
         </div>
       )}
     </div>
