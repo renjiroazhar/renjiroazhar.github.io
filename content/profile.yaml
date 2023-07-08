@@ -10,21 +10,21 @@
   focus: Full Stack Development
   focus_url: https://www.w3schools.com/whatis/whatis_fullstack.asp
   about:
-    Renji is a web enthusiast who is highly interested in full-stack development. Currently, Renji is deepening his understanding of back-end
-    development with internships. With 1 year of work experience as a Web Developer and also contribute to multiple-level organizations inside
-    and outside the university. Both technical and managerial roles are shown in his involvement as an intern, volunteer, and in organizations
-    especially when he brainstorms to implement real-world industry best practices and turns client concepts into workable models. Moreover,
-    he has been capable of maintaining and growing his own business while he also works and studies.
+    Renji is a web enthusiast who is highly interested in full-stack development. Currently, Renji is deepening 
+    his understanding of back-end development. With 1 year of work experience as a Web Developer and also contribute 
+    to multiple-level organizations inside and outside the university. Both technical and managerial roles are shown 
+    in his involvement as an intern, volunteer, and in organizations. Moreover, he has been capable of maintaining 
+    and growing his own business while he also works and studies.
   skills:
+    - Flask
     - Laravel
-    - CodeIgniter
     - ReactJS
   tools:
     - Postman
-    - SQL
-    - Git
+    - Laragon
+    - GitHub
   budget:
     currency: $
-    min: 99
-    max: 499
-    default: 319
+    min: 349
+    max: 799
+    default: 349

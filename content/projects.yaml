@@ -1,3 +1,14 @@
+- name: iBos Ticketing
+  url: https://ibos.id/
+  description: iBos is an Indonesian-based online ticketing platform that serves as an intermediary between bus operators and ticket agents.
+  status: live
+  tags:
+    - Flask
+    - SQLAlchemy
+    - PostgreSQL
+  icon: website
+  image: images/project5.jpg
+
 - name: WebGIS Intelligence
   url: https://intellegence.abbauf.com/
   description: Software that can be used for statistical data analysis, product marketing, sales planning and business intelligence presented in the form of a map.
