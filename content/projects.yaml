@@ -14,8 +14,23 @@
     - Flask
     - PostgreSQL
     - Midtrans
+    - Zenziva
+    - Mailgun
   icon: website
   image: images/project6.jpg
+
+- name: jARict
+  url: https://jarictku.com/
+  description: jARict is the abbreviation of Javanese Augmented Reality in Computational Try On. It's an Augmented Reality (AR) based website platform that's used to try out your shirt virtually. It makes your shopping experience easier and more practical.
+  status: live
+  tags:
+    - Laravel
+    - MySQL
+    - AR.js
+    - A-Frame
+    - Tailwind CSS
+  icon: website
+  image: images/project5.jpg
 
 - name: WebGIS Intelligence
   url: https://intellegence.abbauf.com/
