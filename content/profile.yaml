@@ -16,13 +16,13 @@
     in his involvement as an intern, volunteer, and in organizations. Moreover, he has been capable of maintaining 
     and growing his own business while he also works and studies.
   skills:
+    - Express JS
     - Flask
     - Laravel
-    - ReactJS
   tools:
+    - VS Code
+    - Swagger
     - Postman
-    - Laragon
-    - GitHub
   budget:
     currency: $
     min: 349

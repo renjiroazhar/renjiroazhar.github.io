@@ -1,13 +1,21 @@
-- name: iBos Ticketing
-  url: https://ibos.id/
-  description: iBos is an Indonesian-based online ticketing platform that serves as an intermediary between bus operators and ticket agents.
+- name: Undisclosed
+  url: Null
+  description: Project is being cooked.
+  status: Null
+  tags: Null
+  icon: Null
+  image: images/undisclosed.jpg
+
+- name: Delima Sri Gemilang Ticketing System
+  url: https://delima.ibos.id/
+  description: PT. DSG is a service provider of Bus Rental in Riau founded since 1996. With the support of a prime and well-kept bus fleet, as well as supported by a skilled, experienced, friendly and professional crew.
   status: live
   tags:
     - Flask
-    - SQLAlchemy
     - PostgreSQL
+    - Midtrans
   icon: website
-  image: images/project5.jpg
+  image: images/project6.jpg
 
 - name: WebGIS Intelligence
   url: https://intellegence.abbauf.com/
@@ -52,3 +60,14 @@
     - Bootstrap
   icon: github
   image: images/project1.jpg
+
+# - name: Gading Trans
+#   url: https://gadingtrans.id/
+#   description: A digital guestbook application that has been integrated with messaging applications and automated bots to notify the intended person directly.
+#   status: live
+#   tags:
+#     - PHP
+#     - Javascript
+#     - Bootstrap
+#   icon: github
+#   image: images/project1.jpg
