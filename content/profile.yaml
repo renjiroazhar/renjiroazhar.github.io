@@ -11,14 +11,14 @@
   focus_url: https://www.w3schools.com/whatis/whatis_fullstack.asp
   about:
     Renji is a web enthusiast who is highly interested in full-stack development. Currently, Renji is deepening 
-    his understanding of back-end development. With 1 year of work experience as a Web Developer and also contribute 
+    his understanding of full-stack development. With 2 years of work experience as a Web Developer and also contribute 
     to multiple-level organizations inside and outside the university. Both technical and managerial roles are shown 
     in his involvement as an intern, volunteer, and in organizations. Moreover, he has been capable of maintaining 
     and growing his own business while he also works and studies.
   skills:
-    - Express JS
-    - Flask
     - Laravel
+    - Flask
+    - Express JS
   tools:
     - VS Code
     - Swagger

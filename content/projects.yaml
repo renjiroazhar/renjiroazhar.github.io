@@ -1,10 +1,10 @@
-- name: Undisclosed
-  url: Null
-  description: Project is being cooked.
-  status: Null
-  tags: Null
-  icon: Null
-  image: images/undisclosed.jpg
+# - name: Undisclosed
+#   url: Null
+#   description: Project is being cooked.
+#   status: Null
+#   tags: Null
+#   icon: Null
+#   image: images/undisclosed.jpg
 
 - name: Delima Sri Gemilang Ticketing System
   url: https://delima.ibos.id/
